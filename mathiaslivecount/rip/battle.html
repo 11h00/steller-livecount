@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/livecount_ripbattle.css" />
+    <link rel="stylesheet" type="text/css" href="css/odometer-theme-default.css" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="description" content="The best instagram livecount you ever seen! battle, fast refresh, media livecount and more!" />
+    <meta name="keywords" content="instagram battle, instagram livecount, sub gap, follower gap, livecount, battle" />
+    <meta name="author" content="mathias777" />
+    <title>instagram livecount - battle</title>
+    <script src="js/gap.js"></script>
+    <script src="js/odometer.js"></script>
+    <script src="js/sweetalert.js"></script>
+  </head>
+  <body style="background: black;">
+    	<script>
+    	function user1(){
+    	event.preventDefault()
+    	useuname1 = document.getElementById("usernamer1").value
+    	switch(methoddemerde){
+        case 0:
+          CULER.open('GET', "https://www.instagram.com/" + useuname1 + "/channel/?__a=1");
+    		break;
+    		case 1:
+          CULER.open('GET', "https://www.instagram.com/" + useuname1 + "/?__a=1");
+    		break;
+    		}
+    		CULER.send(null)
+    	}
+    	function user2(){
+    	event.preventDefault()
+    	useuname2 = document.getElementById("usernamer2").value
+    	switch(methoddemerde){
+    	case 0:
+        VS.open('GET', "https://www.instagram.com/" + useuname2 + "/channel/?__a=1");
+    	break
+    	case 1:
+        VS.open('GET', "https://www.instagram.com/" + useuname2 + "/?__a=1");
+      break
+    		}
+    		VS.send(null)
+    	}
+    	</script>
+    <div class="post">
+      <div style="margin-bottom: 30px;margin-top:40px;text-align: center;height: 30%;">
+         <img src="img/0.jpg" id="pfp" onclick="gotoprofile()" alt="ima de prifile mai bon la" style="width: 22%;border: solid;">
+         <img src="img/0.jpg" id="pfp3" onclick="gotoprofile2()" alt="ima de prifile mai bon la" style="width: 22%;border: solid;margin-left: 35%;">
+      </div>
+      <div class="follower" id="follower" style="width: 49%;position: absolute;">
+        <h1 id="name1" style="color: white;text-align: center;">name1</h1>
+        <div id="odometer2" style="line-height: 1em;display: unset;" class="odometer">0</div>
+      </div>
+      <div class="followein" id="followin" style="width: 48%;position: inherit;margin-left: 52%;">
+        <h1 id="name2lol" style="color: white;text-align: center;">name2</h1>
+        <div id="odometer3" style="line-height: 1em;display: unset;" class="odometer">0</div>
+      </div>
+      <div class="followers" id="post-text">
+        <h1 name="vatefaire" id="lecomba" style="color: white;text-align: center;font-size: 25px;">before name1 beat name2</h1>
+        <div id="odometer1" style="font-size: 115px;line-height: 1em;display: unset;" class="odometer">0</div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+$('button').mousedown(function(){
+$(this).css({"-webkit-transform":"translate(4px, 4px)"})
+})
+$('button').mouseup(function(){
+$(this).css({"-webkit-transform":"translate(0px, 0px)"})
+})
+</script>

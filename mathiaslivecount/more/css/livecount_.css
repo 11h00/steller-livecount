@@ -1,0 +1,118 @@
+@font-face{
+font-family: mathias;
+src: url(futura.woff);
+}
+@keyframes mathias{
+  from{
+    border: solid red;
+  }
+  to{
+    border: solid darkred;
+  }
+}
+body {
+  background-color: black;
+	transform: rotate(2deg) translate(1px, 2px);
+}
+.odometer {
+	position: relative;
+	font-family: futura;
+	font-size: 70px;
+	font-weight: 600;
+	color: red;
+    position: absolute;
+	width: 100%;
+	transform: rotate(-12deg) translate(12px, 2px);
+    margin-top: 30px;
+    text-align: center;
+	line-height: 1em;
+    display: unset;
+	text-shadow: 3px 4px 0px rgba(0,0,0,0.85);
+
+}
+#wow {
+	background-color: #11111122;
+	transform: rotate(1deg) translate(-4px, 2px);
+}
+.post {
+	top: 85px;
+	transform: rotate(1deg);
+}
+.leuseu {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  transform: rotate(-6deg) translate(3px, -2px);
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+   font-family: futura;
+}
+#lable1 {
+	font-size: 20px;
+	font-family: futura;
+}
+.bouto1 {
+	position: top;
+	font-family: futura;
+}
+
+.follower, .leposte, #post-text, #followin, #autre {
+	margin-bottom: 5px;
+	width: 100%;
+	transform: rotate(4deg);
+	border : solid 2px #11111122;
+	background : #11111122;
+}
+	#usernamer1 , #usernamer2, #usernamer {
+  font-family: futura;
+  outline: 0;
+  transform: rotate(8deg) translate(7px, -12px);
+  background: #f2f2f2;
+  width: 88%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.methodbuttons{
+  transform: translate(0px, 0px);
+  border: 0px;
+  width: 45%;
+  font-size: 50px;
+  margin: auto;
+  font-family: mathias;
+      transform: rotate(-4deg) translate(11px, 6px);
+  background: rgba(255, 0, 0, 0.42);
+  font-weight: 600
+}
+.methodbuttons[id=buttonmethod2]{
+  background: rgba(0, 255, 0, 0.42);
+      transform: rotate(5deg) translate(-9px, -3px);
+}
+.chercher {
+  font-family: futura;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  transform: rotate(11deg) translate(6px, -8px);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+h1{
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+	transform: rotate(-17deg);
+}
+button{
+	font-family: futura;
+}

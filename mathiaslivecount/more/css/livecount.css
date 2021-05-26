@@ -1,0 +1,149 @@
+@font-face{
+font-family: mathias;
+src: url(futura.woff);
+}
+body {
+	transform: rotate(2deg);
+	background: black
+}
+.odometer {
+	position: relative;
+	font-family: futura;
+	font-size: 70px;
+	font-weight: 600;
+	color: red !important;
+    position: absolute;
+	width: 100%;
+	transform: rotate(-25deg) translate(11px, 16px);
+    margin-top: 30px;
+    text-align: center;
+	line-height: 1em;
+    display: unset;
+	text-shadow: 3px 4px 0px rgba(0,0,0,0.85);
+
+}
+#wow {
+	background-color: #11111122;
+	transform: rotate(-16deg) translate(-4px, 4px);
+}
+#pfp{
+	 border: solid darkred !important;
+	transform: rotate(-102deg) translate(-110px, -239px);
+}
+.post {
+	top: 85px;
+	transform: rotate(12 deg);
+}
+.odometer > .odometer-inside > :nth-child(1){
+	transform: rotate(-40deg) translate(-71px, 21px);
+}
+.odometer > .odometer-inside > :nth-child(2){
+	transform: rotate(-21deg) translate(-32px, 11px);
+}
+.odometer > .odometer-inside > :nth-child(3){
+	transform: rotate(-17deg) translate(-12px, -4px);
+}
+.odometer > .odometer-inside > :nth-child(4){
+	transform: rotate(-22deg) translate(-7px, 1px);
+}
+.odometer > .odometer-inside > :nth-child(5){
+	transform: rotate(-5deg) translate(-3px, -1px);
+}
+.odometer > .odometer-inside > :nth-child(6){
+	transform: rotate(5deg) translate(-8px, 2px);
+}
+.odometer > .odometer-inside > :nth-child(7){
+	transform: rotate(-25deg) translate(-15px, 5px);
+}
+.odometer > .odometer-inside > :nth-child(8){
+	    transform: rotate(-9deg) translate(-22px, 6px);
+}
+.odometer > .odometer-inside > :nth-child(9){
+	transform: rotate(-19deg) translate(-15px, 5px);
+}
+.odometer > .odometer-inside > :nth-child(10){
+	transform: rotate(-23deg) translate(-9px, 18px);
+}
+.leuseu {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  transform: rotate(-6deg);
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+   font-family: futura;
+}
+#lable1 {
+	font-size: 20px;
+	font-family: futura;
+}
+
+.bouto1 {
+	position: top;
+	font-family: futura;
+}
+
+.follower, .leposte, #post-text, #followin, #autre {
+	margin-bottom: 5px;
+	width: 100%;
+	    transform: rotate(-39deg) translate(53px, 65px);
+	border : solid 2px #11111122;
+	background : #11111122;
+}
+	#usernamer1 , #usernamer2, #usernamer {
+  font-family: futura;
+  outline: 0;
+  transform: rotate(8deg);
+  background: #f2f2f2;
+  width: 88%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.methodbuttons{
+  transform: translate(0px, 0px);
+  border: 0px;
+  width: 45%;
+  font-size: 50px;
+  margin: auto;
+  font-family: mathias;
+      transform: rotate(-4deg);
+  background: rgba(255, 0, 0, 0.42);
+  font-weight: 600
+}
+.methodbuttons[id=buttonmethod2]{
+  background: rgba(0, 255, 0, 0.42);
+      transform: rotate(5deg);
+}
+.chercher {
+  font-family: futura;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  transform: rotate(11deg);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+h1{
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+	transform: rotate(-17deg);
+}
+button{
+	font-family: futura;
+}
+@media only screen and (min-aspect-ratio: 6/5){
+	#pfp2{
+		transform: translateX(200%)
+	}

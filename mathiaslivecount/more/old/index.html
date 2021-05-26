@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"/>
+<body id="wewcor" onload="checkcookie()">
+<title>ΜΔŦĦƗΔŞ777 - ŁƗV€ØĆỮŇŦ</title>
+<link rel="icon" href="img/conar.ico">
+<link rel="font" href="fon/Futura.ttf">
+<link rel="stylesheet" type="text/css" href="css/koi.css" />
+<link rel="stylesheet" type="text/css" href="css/odometer-theme-default.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="js/koi.js"></script>
+<script src="js/odometer.js"></script>
+<audio id="tpj"><source src="lesonn/nie.mp3" type="audio/mp3"></audio>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<button onclick="sonsetting()" id="soundstting" style="
+  text-transform: uppercase;
+  outline: 0;
+  background: #FF0000;
+  width: 30%;
+  border: 0;
+  margin-left: 3%;
+  padding: 10px;
+  font-family: futura;
+  color: #FFFFFF;
+  font-size: 30px;
+   transform: translateX(-10%);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  box-shadow: rgba(0, 0, 0, 0.91) 9px 10px 20px 0px;
+  cursor: pointer;" type="button" >sound : OFF</button><button onclick="window.location.href='postGAP.html'" id="bouto9" style="
+  text-transform: uppercase;
+  outline: 0;
+  background: #00ffad;
+  width: 13%;
+  border: 0;
+  margin-left: -2%;
+  transform: translateY(-35%);
+  font-family: futura;
+  padding: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  " type="button" >post battle</button><button onclick="window.location.href='livemedia.html'" id="bouto7" style="
+  text-transform: uppercase;
+  outline: 0;
+  font-family: futura;
+  background: #00ffad;
+  width: 18%;
+  border: 0;
+  margin-left: 1%;
+  transform: translateY(-35%);
+  padding: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  " type="button" >media livecount</button><button onclick="blocked()" id="bouto6" style="
+  text-transform: uppercase;
+  outline: 0;
+  background: #ffa7a7;
+  width: 23%;
+  border: 0;
+  font-family: futura;
+  margin-left: 1%;
+  transform: translateY(-35%);
+  padding: 6px;
+  color: #f50000;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  " type="button" >dont update/stuck ?</button><button onclick="contact()" id="bouto8" style="
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #2200FF;
+  font-family: futura;
+  width: 12%;
+  border: 0;
+  margin-left: 1%;
+  transform: translateY(-32%);
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  " type="button" >contact</button>
+<h1 id="non" style="
+    color: white;
+	text-align: center;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+">instagram livecount by mathias777 for mathias777 :)</h1>
+<div id="featureduser">
+<h1 id="text" style="
+    color: white;
+	text-align: center;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+	font-size: 30px;
+">my profiles :</h1><button onclick="changeuser0()" id="bouto1" style="  font-family: futura;
+  text-transform: uppercase;
+  outline: 0;
+  background: #99A04f;
+  width: 15%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;" type="button">me</button><button onclick="changeuser1()" style="  font-family: futura;
+  text-transform: uppercase;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  outline: 0;
+  background: #99A04f;
+  width: 15%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-left: 3%;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;" id="bouto2" type="button">me (old)</button><button id="bouto5" onclick="changeuser2()" style="
+  text-transform: uppercase;
+  outline: 0;
+  font-family: futura;
+  background: #99A04f;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  width: 30%;
+  border: 0;
+  margin-left: 3%;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;" type="button" >my spam profile</button><button onclick="changeuser3()" id="bouto3" style="
+  text-transform: uppercase;
+  outline: 0;
+  background: #99A04f;
+  width: 30%;
+  border: 0;
+  font-family: futura;
+  margin-left: 3%;
+  box-shadow: 6px 7px 8px 0px rgba(0,0,0,0.91);
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;" type="button" >my useless profile :v</button>
+</div><br>
+<form name="lel" onsubmit="tpjland()" method="post">
+      <input type="text" style="box-shadow: 20px 6px 11px 0px rgba(0,0,0,0.91);" id="usernamer" name="leuseu"required placeholder="username"/><button id="bouto4" style="  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #5610ff;
+  width: 12%;
+  font-family: futura;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer; box-shadow: 16px 6px 13px 0px rgba(0,0,0,0.91);" type="button" onclick="tpjland()">cherchere</button>
+	  </form>
+	<script>
+
+	</script>
+	
+	<script>
+	function fullscreen(){
+	window.location.href = "fullscreen.html"
+	}
+	function changeuser0(){
+	useuname = "mathias__santourian.bot"
+	document.cookie = "lastuser=" + useuname + ";expires=Thu, 18 Dec 2019 12:00:00 UTC"
+	}
+	function changeuser1(){
+	useuname = "mathias_santourian"
+	document.cookie = "lastuser=" + useuname + ";expires=Thu, 18 Dec 2019 12:00:00 UTC"
+	}
+	function changeuser2(){
+	useuname = "mathias_love_dogs"
+	document.cookie = "lastuser=" + useuname + ";expires=Thu, 18 Dec 2019 12:00:00 UTC"
+	}
+	function changeuser3(){
+	useuname = "mathias777_se_poste"
+	document.cookie = "lastuser=" + useuname + ";expires=Thu, 18 Dec 2019 12:00:00 UTC"
+	}
+	function tpjland(){
+	useuname = document.getElementById("usernamer").value
+	document.cookie = "lastuser=" + useuname + ";expires=Thu, 18 Dec 2019 12:00:00 UTC"
+	             nah = CULER.open('GET', "https://www.instagram.com/" + useuname + "/?__a=1");
+   <!-- CULER.send(null); -->
+CULER.onreadystatechange = function(event) {
+    // XMLHttpRequest.DONZ === 4
+
+    if (this.readyState === XMLHttpRequest.DONE) {
+        if (this.status == 302) {
+            Swal.fire('warnin sa marche pa en plu C ! de la merde');
+        }
+		if (this.status === 200) {
+
+			degar = JSON.parse(CULER.responseText);
+			oldcount = folo
+			folo = degar.graphql.user.edge_owner_to_timeline_media.count;
+            followers = degar.graphql.user.edge_followed_by.count;
+			followin = degar.graphql.user.edge_follow.count;
+			high2 = degar.graphql.user.highlight_reel_count;
+			wownon = degar.graphql.user.full_name;
+			if (wownon.length == 0){
+				wownon = useuname
+			}
+			ID = degar.graphql.user.id;
+			prifle = degar.graphql.user.profile_pic_url_hd;
+			document.getElementById('pfp').src=prifle;
+			odometer.innerHTML = folo;
+			odometer2.innerHTML = followers;
+			odometer3.innerHTML = followin;
+			odometer4.innerHTML = high2;
+			document.getElementById("coconu").innerHTML = wownon + " ID : (" + ID + ")";
+			if (sonHD == true) {
+				testcount()
+			}
+        }
+
+		if (this.status === 423) {
+            Swal.fire('ONG LILIT !');
+        }
+		if (this.status === 404) {
+            Swal.fire('DOMA ! pa trouver :(');
+        }
+		if (this.status === 500) {
+            Swal.fire('instgram: aller voçu faire envculef ! jai un nbyuyter v!');
+        }
+    }
+}
+	}
+	function gotopost(){
+	("postGAP.html")
+	}
+	function gotomedia(){
+	("livemedia.html")
+	}
+	
+
+	</script>
+<div class="post">
+   <br><br><img src="img/0.jpg" id="pfp" onclick="gotoprofile()" alt="ima de prifile mai bon la" style="  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border: solid;
+  box-shadow: 13px 15px 38px -9px rgba(0,0,0,0.91);">
+<h1 id="coconu" onclick="gotoprofile()" style="
+    color: white;
+	text-align: center;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+	font-family: futura;
+">...</h1>
+<div class="followers" id="post-text">
+<h1 id="folower" style="
+    color: white;
+	text-align: center;
+	line-height: 0;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+">posts :</h1>
+<div name="leposte" style="font-size: 150px; line-height: 1em; display: unset;font-family: futura;text-shadow: 3px 4px 0px rgba(0,0,0,0.85);" id="odometer" class="odometer">0</div>
+</div>
+
+</div>
+<div class="follower" id="follower" style="
+    width: 49%;
+    position: absolute;
+	font-family: futura;
+">
+<h1 id="folower" style="
+    color: white;
+	text-align: center;
+	line-height: 0;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+">followers :</h1>
+<div name="lefollower" onclick="fullscreen()" id="odometer2" style="font-size: 100px; line-height: 1em; display: unset;font-family: futura;text-shadow: 3px 4px 0px rgba(0,0,0,0.85)" class="odometer">0</div>
+</div>
+<div class="followein" id="followin" style="
+    width: 48%;
+    position: inherit;
+    margin-left: 52%;
+	font-family: futura;
+">
+<h1 id="folower" style="
+    color: white;
+	text-align: center;
+	font-family: futura;
+	line-height: 0;
+">followein :</h1>
+<div name="lefollowin" id="odometer3" style="font-size: 100px; line-height: 1em; display: unset;font-family: futura;text-shadow: 3px 4px 0px rgba(0,0,0,0.85)" class="odometer">0</div>
+</div>
+<div class="autre" id="autre" style="
+    width: 100%;
+    position: inherit;
+	font-family: futura;
+">
+<h1 id="autre2" style="
+    color: white;
+	text-align: center;
+	line-height: 0;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+">highlight storie :</h1>
+<div name="highlight" id="odometer4" style="font-size: 100px; line-height: 1em; display: unset;font-family: futura;text-shadow: 3px 4px 0px rgba(0,0,0,0.85)" class="odometer">0</div>
+</div>
+<div style="
+display: flow-root;" id="backcredit">
+<h1 id="autre3"  style="
+    color: black;
+    text-align: center;
+    font-size: 30px;
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+">this livecount is owned by mathias777</h1>
+<img src="img/sole.png" id="sole" onclick="nightmode()" alt="ima de prifile mai bon la" style="
+  width: 60px;"><button onclick="deletecookies()" id="deleter" style="
+  font-family: futura;
+  text-transform: uppercase;
+  outline: 0;
+  background: #e80000;
+  width: 25%;
+  border: 0;
+  margin-left: 72%;
+  transform: translateY(0);
+  padding: 6px;
+  color: #ffffff;
+  font-size: 18px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  " type="button" >DELETE ALL SAVED DATA </button>
+</div>
+</body>

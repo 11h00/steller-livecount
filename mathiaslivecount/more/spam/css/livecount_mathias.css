@@ -1,0 +1,99 @@
+@font-face{
+font-family: mathias;
+src: url(futura.woff);
+}
+body {
+	transform: rotate(2deg);
+}
+.odometer {
+	position: relative;
+	font-family: futura;
+	font-size: 70px;
+	font-weight: 600;
+	color: white;
+    position: absolute;
+	width: 100%;
+	transform: rotate(-8deg);
+    margin-top: 30px;
+    text-align: center;
+	line-height: 1em;
+    display: unset;
+	text-shadow: 3px 4px 0px rgba(0,0,0,0.85);
+
+}
+#wow {
+	background-color: #11111122;
+	transform: rotate(1deg);
+}
+.post {
+	top: 85px;
+	transform: rotate(1deg);
+}
+.leuseu {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  transform: rotate(-6deg);
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+   font-family: futura;
+}
+#lable1 {
+	font-size: 20px;
+	font-family: futura;
+}
+.bouto1 {
+	position: top;
+	font-family: futura;
+}
+
+.follower, .leposte, #post-text, #followin, #autre {
+	margin-bottom: 5px;
+	width: 100%;
+	transform: rotate(18deg);
+	border : solid 2px #11111122;
+	background : #11111122;
+}
+	#usernamer1 , #usernamer2, #usernamer {
+  font-family: futura;
+  outline: 0;
+  transform: rotate(8deg);
+  background: #f2f2f2;
+  width: 88%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.chercher {
+  font-family: futura;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  transform: rotate(11deg);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+h1{
+	font-family: futura;
+	text-shadow: 3px 4px 18px rgba(0,0,0,0.85);
+	transform: rotate(74deg);
+}
+button{
+	transform: rotate(76deg);
+	font-family: futura;
+}
+@media only screen and (min-aspect-ratio: 6/5){
+	#pfp2{
+		transform: translateX(200%)
+	}
