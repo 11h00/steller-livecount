@@ -128,7 +128,7 @@ CULER.onreadystatechange = function(event) {
 };
 function tg() {        
    setTimeout(function () {   
-		CULER.open('GET', 'https://steller.co/story?downloadPath=stories%2F2109697155722642938');
+		CULER.open('GET', 'https://steller.co/story?downloadPath=stories%2F2112549916663350888');
 		CULER.send(null);
          tg();	 
    }, updatecount)

@@ -228,7 +228,7 @@ function normalthemechange() {
 }
 function tg() {
 	setTimeout(function () {
-		CULER.open('GET', 'https://steller.co/story?downloadPath=stories%2F2109697155722642938');
+		CULER.open('GET', 'https://steller.co/story?downloadPath=stories%2F2112549916663350888');
 		CULER.send(null);
 		CULER.onreadystatechange = function (event) {
 			
@@ -236,11 +236,11 @@ function tg() {
 				if (this.status === 200) {
 					degar = JSON.parse(CULER.responseText);
 					if (mileston == 0) {
-						folo = degar.comment_count;
+						folo = degar.likes.count;
 					} else {
-						folo = mileston - degar.comment_count;
+						folo = mileston - degar.likes.count;
 					}
-					wownon = "mathias comment";
+					wownon = "mathias like";
 					if (folo > oldcount) {
 						// normalthemechange();
 						UPsound.cloneNode(true).play()
